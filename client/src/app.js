@@ -3,7 +3,6 @@ var countries = require('./models/countries');
 
 var state = {
   countries: null,
-  bucketList: []
 }
 
 
@@ -16,8 +15,6 @@ var app = function() {
   });
  
 }
-
-
 
 window.addEventListener('load', app);
 
